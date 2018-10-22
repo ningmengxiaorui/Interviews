@@ -1,0 +1,484 @@
+﻿面试总结——Java高级工程师:
+	https://blog.csdn.net/moneyshi/article/details/50786786
+	https://blog.csdn.net/moneyshi/article/details/52917254
+	https://blog.csdn.net/moneyshi/article/details/53086927
+	
+	https://www.cnblogs.com/study-makes-me-happy/articles/7839861.html
+	
+	
+springBean的加载机制:
+1. 加载XML文件，封装成Resource对象
+2. 调用Reader对象方法读取XML文件内容，并将相关属性放到BeanDefinition实例
+3. 将BeanDefinition对象放到BeanFactory对象
+
+=================其他========================================================
+java反射机制：
+JAVA反射机制是在运行状态中，对于任意一个实体类，都能够知道这个类的所有属性和方法；
+对于任意一个对象，都能够调用它的任意方法和属性；这种动态获取信息以及动态调用对象方法的功能称为java语言的反射机制。
+java语言的优缺点:
+	https://blog.csdn.net/bingshanyijiao_fkx/article/details/51613954
+Servlet生命周期与工作原理：
+	http://www.cnblogs.com/cuiliang/archive/2011/10/21/2220671.html
+httpHeader和httpbody传递的内容：
+	http://blog.csdn.net/a1152024140/article/details/47081911
+	http://blog.csdn.net/ideality_hunter/article/details/53322297
+String,StringBuffer与StringBuilder的区别??
+	https://blog.csdn.net/rmn190/article/details/1492013
+UML九种图作用简介:
+	http://wenku.baidu.com/link?url=9C40AoCTrSNIfGCVB3nwTdJY8L-BN85wPs5UczuVSfbuQT_yuYljz-EsKAhG0yL2a-AHqMJN1zOEbGGVo_gGX6TaFRW7BgXCHIouKBYwRnS
+排序方法：直接选择排序；堆排序；冒泡排序；快速排序；直接插入排序；折半插入排序；希尔排序；归并排序；
+	https://blog.csdn.net/qq_23167527/article/details/82759135
+Linux命令:
+	https://blog.csdn.net/qq_23167527/article/details/53486327
+linux awk命令：
+	
+tomcat和jetty的比较：
+	https://blog.csdn.net/sanjay_f/article/details/48030165
+=================JVM相关知识==================================================
+jvm全解：
+	https://www.cnblogs.com/smyhvae/p/4810168.html
+类的加载机制：
+	https://www.cnblogs.com/ityouknow/p/5603287.html
+	https://blog.csdn.net/fgets/article/details/52934178
+	http://www.jb51.net/article/106117.htm
+
+虚拟机把描述类的数据从 Class 文件加载到内存，并对数据进行校验、转换解析和初始化，
+最终形成可以被虚拟机直接使用的 Java 类型，这就是虚拟机的类加载机制
+jvm全局概念和细分：
+	http://blog.csdn.net/luomingkui1109/article/details/72820232
+	https://www.cnblogs.com/dolphin0520/p/3613043.html
+java gc算法：
+	http://blog.csdn.net/windcake/article/details/54810052
+jvm调优：
+	http://www.importnew.com/19275.html
+Java中的强引用,软引用,弱引用,虚引用：
+	https://www.cnblogs.com/gudi/p/6403953.html
+Java5、6、7、8、9的新特性：
+	http://blog.csdn.net/shengzhu1/article/details/75702797
+	https://segmentfault.com/a/1190000004417288
+java 11：
+	https://blog.csdn.net/weixin_38055381/article/details/82865385
+JAVA8之lambda表达式详解，及stream中的lambda使用：
+	https://blog.csdn.net/jinzhencs/article/details/50748202
+	
+=================加密算法=====================================================
+对称加密与非对称加密：
+	https://segmentfault.com/a/1190000004461428
+	https://segmentfault.com/a/1190000012466003
+	http://blog.csdn.net/aitangyong/article/details/53861894
+	http://www.jiamisoft.com/blog/18395-guan.html
+	
+AES与DES的区别：
+	https://zhidao.baidu.com/question/585632692.html
+	http://www.jiamisoft.com/blog/21306-deses.html
+
+=================框架=========================================================
+spring配置文件里bean的id和name属性：
+	http://xsz.iteye.com/blog/1452293
+SpringBoot AOP的配置和使用：
+	https://blog.csdn.net/qq_23167527/article/details/78623163
+spring AOP 的底层原理：
+	https://blog.csdn.net/qq_24693837/article/details/54909477
+	https://www.jb51.net/article/81788.htm
+SpringBoot 拦截器的配置和使用：
+	https://blog.csdn.net/qq_23167527/article/details/78617798	
+spring的过滤器、监听器、拦截器的区别：
+		https://blog.csdn.net/u011464124/article/details/75097710
+mybatis的三种数据源类型：
+	http://blog.csdn.net/luanlouis/article/details/37671851
+mybatis的缓存机制：
+	https://blog.csdn.net/u010858605/article/details/70906617?locationNum=2&fps=1
+JPA与mybatis的区别：
+	https://blog.csdn.net/u010837612/article/details/47610823
+	http://www.jb51.net/article/78520.htm
+mybatis里#与&的区别：
+	http://m.fx114.net/qa-234-203467.aspx
+
+==================mysql数据库=================================================
+sql优化：
+		http://m.open-open.com/m/lib/view/1349965222556.html
+		http://database.51cto.com/art/200904/118526.htm		
+MySQL的四种事务隔离级别：
+	https://www.cnblogs.com/huanongying/p/7021555.html
+mysql的行锁和表锁：
+	https://www.cnblogs.com/lsxuejava/p/7305920.html
+	https://blog.csdn.net/tanga842428/article/details/52748531(比上一个链接多了例子说明)
+springboot如何使用事务：
+	https://blog.csdn.net/wohaqiyi/article/details/72895983
+	https://blog.csdn.net/wkl305268748/article/details/77619367
+	https://www.jianshu.com/p/380a9d980ca5
+mysql索引：
+	https://jingyan.baidu.com/article/a65957f4e31bd924e77f9b6a.html
+	https://www.cnblogs.com/a-du/p/7117837.html
+	https://www.cnblogs.com/sweet521/p/6203360.html
+mysql主从同步，延迟了怎么办？
+	https://blog.csdn.net/soar_away/article/details/72615012
+	https://blog.csdn.net/cym_summer/article/details/52781135
+Mysql分库分表方案：
+	https://blog.csdn.net/achuo/article/details/72229236
+mysql常用函数:
+	https://blog.csdn.net/sugang_ximi/article/details/6664748
+mysql产生死锁的原因及解决办法：
+	https://blog.csdn.net/qq_16681169/article/details/74784193
+	https://www.cnblogs.com/sivkun/p/7518540.html
+乐观锁与悲观锁概念：
+	https://blog.csdn.net/fatshaw/article/details/52724115
+乐观锁实现例子：
+	http://www.what21.com/sys/view/java_java-thread_1458012669389.html
+Mysql常用的三种数据库引擎比较:
+	https://blog.csdn.net/t146lla128xx0x/article/details/78737290
+数据库连接池C3P0与Druid和dbcp的区别：
+	https://www.cnblogs.com/xiaoxiaoyisheng/p/7526869.html
+	http://blog.csdn.net/q397739000/article/details/52452562
+	https://www.cnblogs.com/Junqiang/p/dataSource.html
+	http://blog.csdn.net/diyu122222/article/details/78762280
+mysql和oracle区别：
+	https://www.cnblogs.com/tyhJava/p/5814322.html
+	https://blog.csdn.net/n_meng/article/details/70143524
+MySQL索引底层实现原理：	
+	https://www.cnblogs.com/boothsun/p/8970952.html
+	https://www.cnblogs.com/sunsky303/p/8274586.html -> InnoDB和MyIsam引擎原理
+Mycat原理、应用场景：	
+	https://www.cnblogs.com/andy6/p/6622324.html
+MyCat中基本概念和功能：
+	https://blog.csdn.net/zuoanyinxiang/article/details/78330292
+	
+=================多线程=======================================================
+多线程：
+	http://blog.sina.com.cn/s/blog_6a7cdcd401017lqd.html (讲解)
+	http://www.jb51.net/article/127833.htm (例子)
+线程池：
+	https://www.cnblogs.com/aspirant/p/6920418.html
+	https://www.cnblogs.com/aaron911/p/6213808.html
+lock与syschinose区别：
+	https://blog.csdn.net/u012403290/article/details/64910926?locationNum=11&fps=1
+	https://www.cnblogs.com/lemon-flm/p/7880119.html
+ThreadLocal简单理解：
+	https://blog.csdn.net/helianus/article/details/78009743
+可重入锁、可中断锁、公平锁、读写锁:
+	https://blog.csdn.net/qq_29797697/article/details/72854485
+java Semaphore介绍：
+	https://blog.csdn.net/sinat_36246371/article/details/53872412
+两种常用的线程计数器CountDownLatch和循环屏障CyclicBarrier
+	https://blog.csdn.net/bntX2jSQfEHy7/article/details/78237208
+	https://www.cnblogs.com/itermis/p/9004041.html
+	https://blog.csdn.net/hanchao5272/article/details/79779639
+java Future与FutureTast与Callable 接口介绍
+	https://blog.csdn.net/u014209205/article/details/80598209
+	http://www.cnblogs.com/dolphin0520/p/3949310.html
+Java并发之AQS详解	
+	https://www.cnblogs.com/waterystone/articles/4920797.html
+	
+================JAVA设计模式==================================================
+设计模式：
+	https://www.cnblogs.com/geek6/p/3951677.html
+	http://www.360doc.com/content/13/1021/14/14280015_323024519.shtml
+	https://blog.csdn.net/qq_33326449/article/details/78946364
+单例的静态内部类写法(单例的5种写法)：
+	http://blog.csdn.net/a303549861/article/details/53028349
+	https://blog.csdn.net/sinat_36695865/article/details/79236404
+MVC是不是java设计模式
+	答：不是；是javaee模式
+
+================nosql相关=====================================================
+为什么要使用NoSQL:
+	http://www.infoq.com/cn/news/2011/01/nosql-why
+Redis、Memcache和MongoDB的区别：
+	http://blog.csdn.net/suifeng3051/article/details/23739295
+	https://blog.csdn.net/dodolzg/article/details/43865241
+	http://www.cnblogs.com/binyue/p/4582550.html
+mecache如何保证多线程下的数据一致性：
+	https://blog.csdn.net/yanker1990/article/details/78737626
+QPS与TPS的区别：
+	https://blog.csdn.net/zuoanyinxiang/article/details/51252049
+Redis序列化:
+	https://www.cnblogs.com/liuchao102/p/4479352.html
+Redis的五种存储类型和其应用场景:
+	http://blog.csdn.net/qq_19943157/article/details/50495925
+
+================socket、http模型==============================================
+socket 3次握手连接，4次握手释放(两个一起理解)：
+	https://www.cnblogs.com/Jessy/p/3535612.html
+	http://blog.csdn.net/gneveek/article/details/8699198
+socket涉及到4大类：
+	http://www.cnblogs.com/rocomp/p/4790340.html
+http/ip与osi模型详解：
+	https://www.cnblogs.com/sasuke-y/p/5702511.html
+tcp滑动窗口与拥塞窗口：
+	https://blog.csdn.net/q1007729991/article/details/70142341
+	https://blog.csdn.net/qq_33436509/article/details/81979024
+
+================dubbo+zookeeper===============================================
+spring IOC与DI：
+	https://blog.csdn.net/baple/article/details/53667767
+	http://www.cnblogs.com/jiangzhaowei/p/9629683.html
+spring AOP原理:
+	https://www.jianshu.com/p/7fa3e6ebf0c1
+spring IOC原理：
+	https://www.cnblogs.com/superjt/p/4311577.html
+	https://blog.csdn.net/fuzhongmin05/article/details/61614873
+dubbo调用的过程(里面中间的位置有张图)：
+	https://www.cnblogs.com/aspirant/p/9002663.html
+多个srpingboot下的dubbo服务，如何实现session共享：
+	https://www.jianshu.com/p/221f8a42be33
+	https://www.jb51.net/article/127360.htm
+	https://blog.csdn.net/qq_19301269/article/details/78805873
+dubbo熔断：
+	http://www.cnblogs.com/java-chen-hao/p/9687235.html#_label1
+dubbo限流：
+	https://liangzl.com/get-article-detail-1489.html
+	https://yiweifen.com/v-1-325778.html
+dubbo降级：
+	https://blog.csdn.net/luckykapok918/article/details/72381992
+	https://blog.csdn.net/vtopqx/article/details/79494599
+Dubbo超时配置，默认1000ms：
+	https://blog.csdn.net/wzh474420999/article/details/81455964?utm_source=blogxgwz2
+	https://blog.csdn.net/peerless_hero/article/details/68922880
+dubbo文件上传：
+	https://blog.csdn.net/qq_35986866/article/details/82115680
+dubbo开发遇到的问题：
+	https://my.oschina.net/lenglingx/blog/1590356
+dubbo+zookeeper:
+	http://blog.csdn.net/ggjlvzjy/article/details/46725115
+	https://www.zhihu.com/question/25070185
+	http://blog.csdn.net/daiqinge/article/details/51282874
+dubbo如何主动通知消费者服务接口修改了：
+	https://blog.csdn.net/u012291108/article/details/59698624
+谈谈dubbo与dubbox与spring cloud:
+	https://www.cnblogs.com/ityouknow/archive/2017/11/20/7864800.html
+	https://blog.csdn.net/qq_30764991/article/details/81221892
+	https://blog.csdn.net/anningzhu/article/details/76599875
+ETCD应用场景：
+	https://blog.csdn.net/liukuan73/article/details/61918130
+RPC原理：	
+	https://www.cnblogs.com/swordfall/p/8683905.html
+dubbo原理：
+	https://blog.csdn.net/he90227/article/details/70157046/
+zk原理：
+	http://www.cnblogs.com/buyuling/p/7265943.html
+分布式系统的注意事项:	
+	https://blog.csdn.net/it_lihongmin/article/details/76777642
+分布式下的幂等性：
+	https://blog.csdn.net/ruben95001/article/details/78365584?locationNum=9&fps=1
+	https://blog.csdn.net/konghen12/article/details/79013054
+	https://blog.csdn.net/alin1215/article/details/81302331
+	
+===============  消息队列=================================================
+RabbitMQ和Kafka对比以及场景使用说明：
+	https://blog.csdn.net/sinat_27634939/article/details/80301656
+kafka：	
+	http://www.codedocs.net/blog/1254
+	http://everycoding.com/coding/1038.html
+rabbitMQ:
+	https://blog.csdn.net/ztx114/article/details/78410727
+	https://blog.csdn.net/hry2015/article/category/7396504
+手写mq：
+	https://blog.csdn.net/u012260707/article/details/50476475
+	
+================跨域问题======================================================
+前端解决跨域的三种方式：
+	https://blog.csdn.net/csdn_ds/article/details/73691134
+服务端如何解决跨域：
+	spring4.2以上 || springboot：
+		https://blog.csdn.net/james_wade63/article/details/50772041
+跨域可能涉及到的危险  CSRF ：
+	https://blog.csdn.net/stpeace/article/details/53512283
+	
+===============  nginx相关配置=================================================
+	https://blog.csdn.net/zhongguozhichuang/article/details/52816887
+	https://blog.csdn.net/liboyang71/article/details/77371595
+	https://blog.csdn.net/qq_21267705/article/details/51771710
+	https://www.linuxidc.com/Linux/2017-04/142962.htm
+nginx反向代理解决跨域：
+	https://www.cnblogs.com/gabrielchen/p/5066120.html
+================多线程==================================================
+创建线程的四种方法：
+1）继承Thread类  2）实现Runnable接口  3）使用Callable和Future  4）使用线程池例如用Executor框架
+	
+================数据结构==================================================
+数据结构概览表：
+	https://blog.csdn.net/u012661010/article/details/72801105
+数据结构-队列和栈有什么区别：
+	https://www.cnblogs.com/lovemi93/p/7605561.html
+链表和二叉树的实现：
+	https://blog.csdn.net/u013144863/article/details/53231260
+两个联合起来理解二叉树：
+	https://blog.csdn.net/qq_35644234/article/details/53013738
+	https://blog.csdn.net/github_39430101/article/details/76992950
+简述二叉树的特性和分类:(详细的请自己看书，只是非常简单的介绍  )
+	https://blog.csdn.net/brianwey/article/details/78759507
+红黑树的介绍, 如红黑树的变色、旋转等：
+	https://zhuanlan.zhihu.com/p/31805309?utm_source=wechat_session&utm_medium=social
+B树、B+树：
+	
+	
+Collection：其下有List和Set和queue三大接口。Map和Collection平级。
+List特点：元素有放入顺序，元素可重复 
+Set特点：元素无放入顺序，元素不可重复（注意：元素虽然无放入顺序，但是元素在set中的位置是有该元素的HashCode决定的，其位置其实是固定的） 
+Map特点：元素按键值对存储，无放入顺序 (应该知道什么是键值对吧！)
+
+Collection
+	Set: 
+		HashSet： 按照哈希算法来存取集合中的对象，所以存取速度比较快 
+		TreeSet ：实现了SortedSet接口，底层为树结构,所以能够对集合中的对象进行排序。 
+		LinkedHashSet：在迭代访问Set中的全部元素时,性能比HashSet好,但是插入时性能稍微逊色于HashSet。
+	List:
+		LinkedList: 插入和删除元素速度快,随机访问速度慢。因为内部采用的是链表数据结构。线程不安全
+		ArrayList : 插入与删除元素速度慢,随机访问速度快。因为内部采用数组方式存储数据。线程不安全
+		Vector:     插入与删除元素速度慢,随机访问速度快。因为内部采用数组方式存储数据。线程安全
+			Stack 栈:
+	Queue：( 队列 https://blog.csdn.net/u010871004/article/details/52604171/ )
+		PriorityQueue：
+		Deque 接口：
+			ArrayDeque：
+			LinkedList：
+Map:
+	HashMap:  不支持线程的同步,所以线程不安全； 允许记录的键或者值为空;   根据键的hashCode值存储数据，所以可以根据键直接获取它的值，具有很快的访问速度,此为高效；
+	HashTable:支持线程的同步,所以线程安全；     不允许记录的键或者值为空; 任一时刻只有一个线程能写Hashtable，所以导致了Hashtable在写入时会比较慢，低效。
+	LinkeHashMap:保存了记录的插入顺序，在用Iteraor遍历LinkedHashMap时，先得到的记录肯定是先插入的。在遍历的时候会比HashMap慢。有HashMap的全部特性。
+	TreeMap:能够把它保存的记录根据键排序，默认是按升序排序，也可以指定排序的比较器。当用Iteraor遍历TreeMap时，得到的记录是排过序的。TreeMap的键和值都不能为空。
+ArrayList的动态扩容：
+	https://www.cnblogs.com/kuoAT/p/6771653.html
+hashmap的原理：
+	https://www.cnblogs.com/chengxiao/p/6059914.html
+	http://www.importnew.com/7099.html
+	http://www.importnew.com/16301.html
+	一句话总结就是，并发环境下的rehash过程可能会带来循环链表，导致死循环致使线程挂掉。
+	因此并发环境下，建议使用Java.util.concurrent包中的ConcurrentHashMap以保证线程安全。
+并发包中的hashmap->ConcurrentHashMap的原理：
+	http://www.importnew.com/22007.html
+并发包中的Queue：
+	https://blog.csdn.net/hutongling/article/details/71036357
+	https://blog.csdn.net/caodongfang126/article/details/79667614
+map的遍历：
+	Map map = new HashMap();
+　　Iterator iter = map.entrySet().iterator();
+　　while (iter.hasNext()) {
+	　　Map.Entry entry = (Map.Entry) iter.next();
+	　　Object key = entry.getKey();
+	　　Object val = entry.getValue();
+　　}
+===============  ==和equals的区别=================================================
+	http://blog.csdn.net/chance2015/article/details/51427304
+	https://blog.csdn.net/love_xsq/article/details/43760771
+
+	== 与 equals 总结：
+	只要不是String类，也没有重写equals方法，那么==和equals比较都是false。
+	是String类，如果是常量，比如"123",那么==和equals都是true。
+				如果是new String("123")，那么==比较地址是false，equals比较内容是true。
+				
+eg:
+		//基本数据类型的比较==是比较值，没有equals方法。
+        int num1 = 1;
+        int num2 = 1;
+        System.out.println(num1 == num2);   						//true
+        //引用数据类型的比较
+        String s1 = "chance";
+        String s2 = "chance";
+        System.out.println(s1 == s2);        						//true
+        System.out.println(s1.equals(s2));    						//true
+        //String类中==与equals的比较
+        String s3 = new String("chance");     
+        String s4 = new String("chance");
+        System.out.println(s3 == s4);        						//false
+        System.out.println(s3.equals(s4));    						//true
+        //非String类中==与equals类型的比较
+        Scanner scanner = new Scanner(System.in);      
+        Scanner scanner2 = new Scanner(System.in);
+        System.out.println(scanner.equals(scanner2));       		//false
+        Scanner sc = scanner;
+        System.out.println(scanner.equals(sc));            			//true
+        // 包装类
+        Integer i1 = 1;
+        Integer i2 = 1;
+        System.out.println(i1 == i2);								//false ->true // 因为java为了优化把-128到127的Integer对象封装成了常量，同一个常亮地址肯定一样，所以true
+        System.out.println(i1.equals(i2));							// true
+        
+        Integer i3 = new Integer(1);
+        Integer i4 = new Integer(1);
+        System.out.println(i3 == i4);								// false
+        System.out.println(i3.equals(i4));							// true
+        
+        System.out.println(i1 == i4);								// false // 两个包装类==比较为地址比较，两个对象，所以为false
+        System.out.println(i1.equals(i4));							// true
+        
+        System.out.println(num1 == i4);								// false ->true // Integer与int比较，先自动拆包成基本类型int，然后比较值
+        System.out.println(i4.equals(num1));						// ture // Integer类重写了equals方法，与String类一样，都是比较内容
+		System.out.println(num1.equals(i4));						// 编译出错，因为基本类型不能点出equals方法
+		
+================File类的方法==================================================
+===File类创建方法
+1.boolean createNewFile() 不存在返回true 存在返回false
+2.boolean mkdir() 创建目录
+3.boolean mkdirs() 创建多级目录
+===File类删除方法
+1.boolean delete()
+2.boolean deleteOnExit() 文件使用完成后删除
+===File类是否存在方法
+1.boolean exists() 判断文件是否存在
+
+================写出使用jdbc连接数据库进行查询的方法===========================
+package org.quanran.com;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+public class Databasetest {
+	private static int count;
+	public static Connection getConnection() throws SQLException,java.lang.ClassNotFoundException {
+		// (1)加载MySQL的JDBC的驱动 Class.forName("com.mysql.jdbc.Driver");
+		// 取得连接的url,能访问MySQL数据库的用户名,密码,数据库名
+		String url = "jdbc:mysql://127.0.0.1:3306/hj?useUnicode=true&characterEncoding=utf8";
+		String username = "root";
+		String password = "";
+		// (2)创建与MySQL数据库的连接类的实例
+		Connection con = (Connection) DriverManager.getConnection(url,username, password);
+		return con;
+	}
+	public static void main(String args[]) {
+		try {
+			// (3)获取连接实例con,用con创建Statement对象实例 sql_statement
+			Connection con = getConnection();
+			Statement sql_statement = (Statement) con.createStatement();
+			// 插入语句
+			String sql = "insert into student(id,name,score)values(null,'梵蒂冈的发',99)";
+			count = sql_statement.executeUpdate(sql);
+			// (4)执行查询,用ResultSet类的对象,返回查询结果
+			String query = "select * from student";
+			ResultSet result = sql_statement.executeQuery(query);
+			// 对获得的查询结果进行处理,对Result类的对象进行操作
+			while (result.next()) {
+				int number = result.getInt("id");
+				String name = result.getString("name");
+				String score = result.getString("score");
+				System.out.println("学号: " + number + " 姓名: " + name + " 成绩: " + score);
+			}
+			// 关闭连接和声明 sql_statement.close();
+			con.close();
+		} catch (java.lang.ClassNotFoundException e) {
+			// 加载JDBC错误,所要用的驱动没有找到
+			System.err.print("ClassNotFoundException");
+			// 其他错误
+			System.err.println(e.getMessage());
+		} catch (SQLException ex) {
+			// 显示数据库连接错误或查询错误
+			System.err.println("SQLException: " + ex.getMessage());
+		}
+	}
+}
+===============  activity 工作流=================================================
+
+
+
+未解决的问题：
+1.两个一千万的集合，不用循环找出其中相同的一个元素。
+2.消费者发出请求给zk查询服务，和请求的几种策略有关？
+3.说下mysql的实现原理。
+5.tomcat底层你会么
+7.用什么可以代替锁和事物。
+14.事物隔离级别和原理
+15.锁的底层原理
+17.我们这里问的 ，比如判断一个链表有没有环，这个算法是判断有没有死锁的
+18.记东西，先分类，队列有fifo,lifo，同步，阻塞，非阻塞的，就这几类  分别去了解。
+19.jvm实现，redis底层原理，mybatis实现原理
