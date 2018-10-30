@@ -195,6 +195,8 @@ Redis序列化:
 	https://www.cnblogs.com/liuchao102/p/4479352.html
 Redis的五种存储类型和其应用场景:
 	http://blog.csdn.net/qq_19943157/article/details/50495925
+redis必须掌握八点：
+	https://blog.csdn.net/middleware2018/article/details/80355418
 
 ================socket、http模型==============================================
 socket 3次握手连接，4次握手释放(两个一起理解)：
@@ -482,3 +484,4 @@ public class Databasetest {
 17.我们这里问的 ，比如判断一个链表有没有环，这个算法是判断有没有死锁的
 18.记东西，先分类，队列有fifo,lifo，同步，阻塞，非阻塞的，就这几类  分别去了解。
 19.jvm实现，redis底层原理，mybatis实现原理
+20.100个人围成一圈，分别对应数字，1,2,3...100；从一开始，每次数到第三个人，让它出局；是个圈；求最后剩下谁？
